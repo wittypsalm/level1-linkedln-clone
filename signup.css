@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3f2f0;
+    font-family: "poppins", sans-serif;
+    overflow-x: hidden;
+}
+.nav-header{
+  
+    margin-left: 100px;
+    margin-top: 20px;
+}
+ .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 500px;
+    gap: 8px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 390px;
+    border-radius: 20px;
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+.btn:hover{
+    border: 1px solid #2d79f3;
+}
+  .flex-column > label {
+    color: #151717;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .inputForm {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+  }
+  .input:focus {
+    outline: none;
+  }
+  .inputForm input{
+  border: none;
+    border-radius: 10px;
+    height: 50px;
+    transition: 0.2s ease-in-out;
+  }
+  .button-submit {
+    margin: 15px 0 5px 0;
+    background-color: #044182;
+   border: 1px solid #044182;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .separator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #333;
+  }
+  
+  .separator .line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: #333;
+  }
+  .button-submi {
+    margin: 20px 0 10px 0;
+    background-color: white;
+    border: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    
+    cursor: pointer;
+  }
+  .ggo{
+    display: flex;
+    justify-content: space-around;
+  }
+  .fk{
+    margin: auto;
+  }
+  .sd{
+  text-align: center;
+ font-size: 30px;
+ margin-top: 50px;
+  }
+  .ds{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+  }
+  .fg{
+    display: flex;
+    align-items: center;
+    /* gap: 25px; */
+   
+    font-size: 12px;
+    margin-left: 60px;
+   
+  }
+  
+  .fg div{
+    margin-left: 30px;
+  }
+  .all{
+    width: 100%;
+    background-color: white;
+    padding: 12px;
+  }

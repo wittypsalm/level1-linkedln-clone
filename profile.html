@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./profile.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+
+    <title>Landingpage</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a class="logo" href=""><img src="./IMAGES/logo.png" alt="" /></a>
+        <div class="search-box">
+          <img src="./IMAGES/search.png" alt="" />
+          <input placeholder="SEARCH" type="search" name="" id="" />
+        </div>
+      </div>
+      <div class="navbar-center">
+        <ul>
+          <li>
+            <a href="home.html"
+              ><img src="./IMAGES/home.png" alt="" /> <span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="network.html"
+              ><img src="./IMAGES/home.png" alt="" /><span>My network</span></a
+            >
+          </li>
+          <li>
+            <a href="job.html"
+              ><img src="./IMAGES/jobs.png" alt="" /><span>Jobs</span></a
+            >
+          </li>
+          <li>
+            <a href="message.html"
+              ><img src="./IMAGES/message.png" alt="" /><span
+                >Messaging</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="notification.html"
+              ><img src="./IMAGES/notification.png" alt="" /><span
+                >Notifications</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <div class="online">
+          <button class="bigs">
+            <img
+              src="./IMAGES/mine.jpg"
+              class="nav-profile-img"
+              onclick="toggleMenu()"
+              alt=""
+            />
+            <div class="smalls">
+              <div class="post-author">
+                <img src="./IMAGES/mine.jpg" alt="" />
+                <div>
+                  <h1 style="text-align: left">Adesina samuel</h1>
+                  <h6
+                    style="font-size: 13px; font-weight: 50; text-align: left"
+                  >
+                    Cyber Security
+                  </h6>
+                  <br />
+                  <br />
+                  <a
+                    style="color: #0b66c2"
+                    class="daa"
+                    type="button"
+                    href="./profile.html"
+                    >view profile</a
+                  >
+                </div>
+              </div>
+              <hr class="lmao" />
+              <br />
+              <div style="margin-right: 220px; font-size: 16px">Account</div>
+              <br />
+              <h5
+                style="
+                  margin-right: 160px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  color: dimgray;
+                "
+              >
+                Try premium for free
+              </h5>
+              <br />
+
+              <h5
+                style="
+                  margin-right: 165px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  color: dimgray;
+                "
+              >
+                Settings & Privacy
+              </h5>
+              <br />
+              <h5
+                style="
+                  margin-right: 230px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  color: dimgray;
+                "
+              >
+                Help
+              </h5>
+              <br />
+              <h5
+                style="
+                  margin-right: 210px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  color: dimgray;
+                "
+              >
+                Language
+              </h5>
+              <br />
+              <hr class="lmao" />
+              <br />
+              <div style="margin-right: 220px; font-size: 16px">Manage</div>
+              <br />
+              <h5
+                style="
+                  margin-right: 200px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  color: dimgrey;
+                "
+              >
+                Post & Activity
+              </h5>
+              <br />
+              <h5
+                style="
+                  margin-right: 165px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  color: dimgray;
+                "
+              >
+                Job posting Account
+              </h5>
+              <br />
+              <hr class="lmao" />
+              <a
+                style="margin-right: 220px"
+                href="file:///Users/macbookair/Documents/Level1Project/signin.html"
+                >Sign out</a
+              >
+            </div>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="main-content">
+        <div class="create-post">
+          <div class="create-post-input">
+            <img src="IMAGES/mine.jpg" alt="" />
+
+            <textarea name="" id="" placeholder="" rows="2"></textarea>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-author">
+            <div>
+              <h1>Adesina sunday samuel</h1>
+              <h4 style="font-weight: 100; color: gray; font-size: 13px">
+                Cyber Security
+              </h4>
+              <br /><br />
+              <div style="font-weight: 100; color: gray; font-size: 13px">
+                Lagos, Lagos state,Nigeria.
+                <a
+                  style="color: #0b66c2; font-weight: 100; font-size: 13px"
+                  href=""
+                  >contact info</a
+                >
+              </div>
+              <div>
+                <a
+                  style="color: #0b66c2; font-weight: 100; font-size: 13px"
+                  href=""
+                  >40 followers . 53 connections</a
+                >
+              </div>
+            </div>
+          </div>
+          <div>
+            <button
+              style="
+                color: white;
+                background-color: #0b66c2;
+                border-radius: 80px;
+                padding: 4px;
+                border: 1px solid #0b66c2;
+              "
+            >
+              open to
+            </button>
+            <button
+              style="
+                color: #0b66c2;
+                background-color: white;
+                border-radius: 80px;
+                padding: 4px;
+                border: solid #0b66c2;
+              "
+            >
+              Add profile section
+            </button>
+          </div>
+          <br />
+          <div
+            style="display: flex; justify-content: space-around"
+            class="fgjhgg"
+          >
+            <div
+              style="
+                background-color: aliceblue;
+                display: flex;
+                justify-content: space-between;
+              "
+              class="create-p"
+            >
+              <!-- <div class="create-po-input">Open to work <br>networking role </div> -->
+              <div style="font-size: 13px">
+                open to work<br />
+                Networking role <br />
+                <div style="font-size: 13px; color: #0b66c2">show details</div>
+              </div>
+
+              <div class="tre gre"><i class="fa-solid fa-pencil"></i></div>
+            </div>
+            <div>
+              <div
+                style="
+                  background-color: white;
+                  border: 2px solid whitesmoke;
+                  display: flex;
+                  justify-content: space-between;
+                "
+                class="create-p"
+              >
+                <!-- <div class="create-po-input">Open to work <br>networking role </div> -->
+                <div style="font-size: 13px">
+                  Show that you're hiring and attract qualified <br />
+                  Networking role
+                  <div style="font-size: 13px; color: #0b66c2">Get started</div>
+                </div>
+
+                <div class=""><i class="fa-solid fa-xmark"></i></div>
+              </div>
+            </div>
+          </div>
+          <br />
+        </div>
+
+        <div style="padding-bottom: 60px" class="post">
+          <div class="reate-post">
+            <div style="font-size: 18px" class="reate-post-input">
+              Suggested for you
+            </div>
+            <div style="font-size: 16px; margin-left: 10px; color: #807b7b">
+              <i class="fa-solid fa-eye"></i> Private for you
+            </div>
+            <br />
+            <div style="font-size: 20px">Intermediate</div>
+            <br />
+          </div>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <div id="myProgress">
+              <div id="myBar">10%</div>
+            </div>
+            <div>6/7</div>
+          </div>
+          <br />
+          <div style="font-size: 18px">
+            Complete 1 step to achieve
+            <span style="color: #0b66c2; font-size: 18px">All-star</span>
+          </div>
+          <br />
+          <div
+            style="
+              border: 2px solid whitesmoke;
+              padding-bottom: 40px;
+              padding-top: 20px;
+              border-radius: 10px;
+            "
+            class="yeahs"
+          >
+            <div
+              style="
+                display: flex;
+                margin-left: 12px;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div style="gap: 1.2rem; display: flex">
+                <div>
+                  <i style="font-size: 50px" class="fa-solid fa-briefcase"></i>
+                </div>
+                <div style="font-size: 18px">Where do you currently work?</div>
+              </div>
+              <div style="margin-right: 12px" class="">
+                <i style="font-size: 20px" class="fa-solid fa-xmark"></i>
+              </div>
+            </div>
+            <br />
+            <div style="font-size: 13px; margin-left: 12px">
+              Mebers who includes atleast one position receives up to 3.5times
+              as many as profile views
+            </div>
+            <br />
+            <div style="margin-left: 12px">
+              <button
+                style="
+                  border-radius: 20px;
+                  font-weight: 800;
+                  font-size: 18px;
+                  color: #807b7b;
+                  border: 2px solid whitesmoke;
+                  background-color: white;
+                  padding: 18px;
+                "
+              >
+                Add Position
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding-bottom: 40px" class="post">
+          <div class="reate-post">
+            <div style="font-size: 13px" class="reate-post-input">
+              Analytical
+            </div>
+            <div>
+              <div style="font-size: 16px; margin-left: 10px">
+                <i class="fa-solid fa-eye"></i> Private for you
+              </div>
+            </div>
+            <br />
+            <div style="display: flex; gap: 5rem" class="lkj">
+              <div style="display: flex; gap: 0.5rem">
+                <div style="font-size: 13px; margin-left: 10px">
+                  <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div
+                  style="font-size: 13px; font-weight: 500; margin-left: 10px"
+                >
+                  0 profile views <br />
+                  Update your profile to attract <br />
+                  viewers
+                </div>
+              </div>
+              <div style="display: flex; gap: 0.5rem">
+                <div style="font-size: 13px; margin-left: 10px">
+                  <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div
+                  style="font-size: 13px; font-weight: 500; margin-left: 10px"
+                >
+                  0 profile views <br />
+                  Update your profile to attract <br />
+                  viewers
+                </div>
+              </div>
+            </div>
+
+            <br />
+          </div>
+
+          <br />
+          <hr />
+          <br />
+          <div style="text-align: center">
+            Show Analytical <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-bar">
+        <div class="sidebar-activity">
+          <div>
+            <div
+              style="
+                display: flex;
+                margin-left: 12px;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div style="gap: 1.2rem; display: flex">
+                <div style="font-size: 18px">
+                  profile language <br />
+                  <div
+                    style="font-size: 13px; color: #807b7b; margin-top: 10px"
+                  >
+                    English
+                  </div>
+                </div>
+                
+              </div>
+              <div style="margin-right: 12px" class="">
+                <i style="font-size: 15px" class="fa-solid fa-pencil"></i>
+              </div>
+            </div>
+            <br />
+            
+            <hr />
+          </div>
+          <br />
+          <br />
+
+          <div
+            style="
+              display: flex;
+              margin-left: 12px;
+              justify-content: space-between;
+              align-items: center;
+            "
+          >
+            <div style="gap: 1.2rem; display: flex">
+              <div style="font-size: 18px">public profile & URL <br><div style="font-size: 12px; color: #807b7b; margin-top: 10px;">LinkedIn.com</div>  </div>
+              <div></div>
+            </div>
+            <div style="margin-right: 12px" class="">
+              <i style="font-size: 15px" class="fa-solid fa-pencil"></i>
+            </div>
+          </div>
+          <br />
+        </div>
+        <div class="sidebar-activity">
+          <br />
+          <hr style="background-color: white; border: none; height: 2px" />
+
+          <div class="sid">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p style="white-space: nowrap">
+              Adesina,unlock your full potential with LinkedIn <br />premium
+            </p>
+
+            <div>
+              <img src="./IMAGES/mine.jpg" alt="" />
+              <img src="./IMAGES/key.jpeg" alt="" />
+              <b>See who's view your profile in the last <br />90 days</b><br>
+
+              <button class="vv">try for free</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="side">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>Master the 5 principls of web design</p>
+            <div>
+              <img src="IMAGES/mine.jpg" />
+              <img src="IMAGES/mi-logo.png" />
+            </div>
+            <b>Brand and Demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn more</a>
+          </div> -->
+      </div>
+    </div>
+    <div class="contai">
+      <div class="accordion">
+        <div class="accordion-header">
+          message 2
+          <span class="accordion-toggle"
+            ><i style="color: white" class="fa-solid fa-angle-up"></i
+          ></span>
+        </div>
+        <div class="accordion-content">
+          <br />
+          <center>
+            <div class="search-bo">
+              <img src="./IMAGES/search.png" />
+              <input type="text" placeholder="search messages" />
+            </div>
+          </center>
+          <br />
+          <hr />
+          <div class="re">
+            <div style="color: green; border-bottom: 3px solid rgb(2, 55, 2)">
+              Focus
+            </div>
+            <div>Others</div>
+          </div>
+          <hr />
+          <center>
+            <div class="post-autho">
+              <img src="./IMAGES/mine.jpg" alt="" />
+              <div>
+                <h1>Okotore Tope G</h1>
+                <small>Check your mail</small>
+                <small>just now</small>
+              </div>
+            </div>
+          </center>
+          <hr />
+          <center>
+            <div class="post-autho">
+              <img src="./IMAGES/mine.jpg" alt="" />
+              <div>
+                <h1>Okotore Tope G</h1>
+                <small>Check your mail</small>
+                <small>just now</small>
+              </div>
+            </div>
+          </center>
+          <hr />
+          <center>
+            <div class="post-autho">
+              <img src="./IMAGES/mine.jpg" alt="" />
+              <div>
+                <h1>Okotore Tope G</h1>
+                <small>Check your mail</small>
+                <small>just now</small>
+              </div>
+            </div>
+          </center>
+          <hr />
+          <center>
+            <div class="post-autho">
+              <img src="./IMAGES/mine.jpg" alt="" />
+              <div>
+                <h1>Okotore Tope G</h1>
+                <small>Check your mail</small>
+                <small>just now</small>
+              </div>
+            </div>
+          </center>
+          <hr />
+          <center>
+            <div class="post-autho">
+              <img src="./IMAGES/mine.jpg" alt="" />
+              <div>
+                <h1>Okotore Tope G</h1>
+                <small>Check your mail</small>
+                <small>just now</small>
+              </div>
+            </div>
+          </center>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const accordions = document.querySelectorAll(".accordion");
+
+      accordions.forEach((accordion) => {
+        const header = accordion.querySelector(".accordion-header");
+        const content = accordion.querySelector(".accordion-content");
+        header.addEventListener("click", () => {
+          if (content.style.display === "block") {
+            content.style.display = "none";
+            header.querySelector(
+              ".accordion-toggle"
+            ).innerHtml = `<i class="fa-solid fa-angle-up"></i>`;
+          } else {
+            content.style.display = "block";
+            header.querySelector(
+              ".accordion-toggle"
+            ).innerHtml = `<i class="fa-solid fa-angle-down"></i>`;
+          }
+        });
+      });
+    });
+  </script>
+  <script
+    src="https://kit.fontawesome.com/2db57ca0a6.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
